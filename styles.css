@@ -1,0 +1,84 @@
+body{
+  background-color: black;
+  color:black;
+  text-align: center;
+}
+
+/*Fixed position is used below*/
+.family{
+  font-size: 30px;
+  background-color: white;
+  position: fixed;
+  left: 140px;
+  top:40px;
+}
+
+/*Static position is used below*/
+.daddy{
+  height: 70px;
+  width: 100%;
+  background-color: yellow;
+  position: static;
+  margin-top: 200px;
+  font-size:30px;
+  line-height: 60px;
+}
+
+/*Relative position is used below*/
+.mummy{
+  background-color: red;
+  position: relative;
+  left:35px;
+  height: 60px;
+  width: 90%;
+  font-size:25px;
+  line-height: 50px;
+
+}
+
+/*Absolute position is used below*/
+.me{
+  background-color: cyan;
+  height: 70px;
+  width:60%;
+  font-size:25px;
+  position:absolute;
+  left:140px;
+  line-height: 50px;
+}
+
+/*Relative position is used below*/
+#mee{
+  position: relative;
+  background-color:rgba(234 234 345);
+  top:20px
+}
+
+/*Relative position is used below*/
+.aaku{
+  background-color: deeppink;
+  font-size:25px;
+  position:relative;
+  top:50px;
+  left:5cm;
+  height:50px;
+  width:45%;
+}
+
+/*Relative position is used below*/
+.yugi{
+  background-color:lightgreen;
+  height:40px;
+  width:20%;
+  position:relative;
+  left:7.5cm; 
+  top: 1cm;
+}
+
+/*Sticky position is used below*/
+#world{
+  background-color:purple;
+  height:40px;
+  width:20%;
+  position: sticky;
+}
